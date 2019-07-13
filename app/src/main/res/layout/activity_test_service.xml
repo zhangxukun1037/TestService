@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.android.testservice.TestServiceActivity">
+
+
+    <Button
+        android:id="@+id/btn_bind"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="绑定Service"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_unbind"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="解绑Service"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_get_state"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="获取Service状态"
+        android:textAllCaps="false" />
+</LinearLayout>
